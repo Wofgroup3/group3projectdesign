@@ -1,0 +1,35 @@
+.city-cards {
+}
+
+.city-cards .city-home-page {
+  width: 300px;
+}
+
+.city-cards .card-header img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  display: block;
+}
+.city-cards .city-cards-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+#city-cards .card-header {
+  margin: 2rem 0;
+  position: relative;
+}
+.city-cards button {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primaryColor);
+  color: var(--white);
+  padding: 0.7rem 1rem;
+  font-family: inherit;
+  cursor: pointer;
+}

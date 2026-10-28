@@ -1,0 +1,24 @@
+.talent-wrapper {
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+  background-color: rgba(231, 129, 107, 0.5);
+  margin-top: 5rem;
+  border-radius: 5px;
+  gap: 2rem;
+}
+.talent-wrapper img {
+    width: 100%;
+    height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.talent-wrapper h2 {
+  font-size: 3rem;
+  color: var(--primaryColor);
+}
+.talent-wrapper .right-side {
+  padding: 2rem;
+}

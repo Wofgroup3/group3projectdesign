@@ -1,0 +1,112 @@
+#footer {
+  margin: 4rem 0;
+  transform: translateY(25%);
+}
+.footer-header {
+  background-color: #ed8071;
+  border-radius: 5px;
+  height: 40vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+}
+.footer-header h2 {
+  font-size: 2rem;
+  color: white;
+}
+.footer-header p {
+  width: 70%;
+  color: white;
+  margin-top: 1rem;
+}
+.footer-header button {
+  outline: none;
+  border: none;
+  background-color: white;
+  color: black;
+  font-family: inherit;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0.7rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.footer-header button:hover {
+  background-color: var(--secondaryColor);
+  color: var(--white);
+}
+.footer-wrapper {
+  background-color: var(--DarkGray);
+  height: 35vh;
+}
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 4rem;
+}
+.footer-nav .logo {
+  object-fit: cover;
+  width: 50%;
+}
+.footer-nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.footer-nav ul li a {
+  color: var(--white);
+}
+
+.footer-txt-wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  align-items: start;
+  gap: 35px;
+
+  max-width: 976px;
+  margin: 0 auto;
+  padding: 25px 0 30px;
+
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+/* Address and contact text */
+.footer-txt-wrapper .address,
+.footer-txt-wrapper .contact {
+  min-width: 0;
+}
+
+.footer-txt-wrapper p {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #d8d5d9;
+  overflow-wrap: anywhere;
+}
+
+/* Social media icons container */
+.footer-txt-wrapper .social {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  min-width: 100px;
+}
+
+/* Individual social media icons */
+.footer-txt-wrapper .social img {
+  display: block;
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.footer-txt-wrapper .social img:hover {
+  opacity: 0.5;
+}
