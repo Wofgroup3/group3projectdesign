@@ -1,5 +1,6 @@
 import React from "react";
 import "./ContactForm.css";
+import { Link } from "react-router-dom";
 
 const ContactForm = () => {
   return (
@@ -28,7 +29,9 @@ const ContactForm = () => {
             <div className="input-control">
               <input type="text" placeholder="Your Message" />
             </div>
-            <button>Submit</button>
+            <button>
+              <Link to="/Login">Submit</Link>
+            </button>
           </form>
         </div>
       </div>
